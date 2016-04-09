@@ -1,0 +1,1 @@
+wget -q -O- http://10.10.48.129/0/up/|grep -q 'Login Name' || (curl --data "user=user_name&pass=password&login=Login" http://10.10.48.129/0/up/ && echo Connected to Alliance Broadband)
