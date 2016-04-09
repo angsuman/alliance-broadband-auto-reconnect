@@ -17,5 +17,15 @@ ca
 Now add it to crontab with crontab -e:
 `* * * * * /absolute/path/to/ca >/dev/null 2>&1`
 
-This run ca every minute which reconnects only if required
+This run ca every minute which reconnects only if required.
+
+# Developer
+Angsuman Chakraborty
+- Email: angsuman@taragana.com
+- Web:      http://taragana.com/
+- Facebook: https://www.facebook.com/angsuman.chakraborty
+- Twitter:  https://twitter.com/angsuman
+- LinkedIn: https://in.linkedin.com/in/angsuman
+- Blog:     http://blog.taragana.com
+
 
