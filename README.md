@@ -15,7 +15,7 @@ Save it and run to test:
 ca
 
 Now add it to crontab with crontab -e:
- * * * * * /absolute/path/to/ca >/dev/null 2>&1
+'* * * * * /absolute/path/to/ca >/dev/null 2>&1
 
 This run ca every minute which reconnects only if required
 
