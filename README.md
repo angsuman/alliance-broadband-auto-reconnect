@@ -4,6 +4,7 @@ Automatically Reconnects Alliance Broadband (Kolkata) Connection on Linux / Mac 
 Copy the ca (stands for Connect Alliance) to a directory in your path like /usr/bin. In some installations in ~/bin works too. You can anyways add any directory to your $PATH in `~/.bashrc` file.
 
 Make ca executable with:
+
 `chmod 755 ca`
 
 Opn the file ca and make the following changes:
@@ -15,6 +16,7 @@ Save it and run to test:
 ca
 
 Now add it to crontab with crontab -e:
+
 `* * * * * /absolute/path/to/ca >/dev/null 2>&1`
 
 This run ca every minute which reconnects only if required.
